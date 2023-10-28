@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Luas Bangun Datar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        footer{
+            font-family: "Agbalumo", cursive;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // Nomor 1 Menghitung luas lingkaran
+        function luas(r) {
+        const phi = 3.14
+        L = phi * (r * r)
+        return L
+    }
+
+    let r = 7
+    let luas_lingkaran = luas(r)
+    console.log(luas_lingkaran)
+
+    // Nomor 2 phi = 3.14
+    function ph1(p){
+        const phi = 3.14
+        nilai = 3.14
+        return nilai
+    }
+
+    let p = 7 
+    let berapa = ph1(p)
+    console.log(berapa) 
+
+    // Nomor 3 Menghitung luas trapesium
+
+    function trapesium(tr){
+        const phi = 3.14
+        L = 1 / 2 * 5 * 15 * 7
+        return L
+    }
+
+    let tr = 7 
+    let luas_trapesium = trapesium(tr)
+    console.log(luas_trapesium) 
+
+    // Nomor 4 Menghitung luas layang-layang
+
+    function layang(d){
+        const phi = 3.14
+        L = 14 * 25 / 2
+        return L
+    }
+
+    let d = 7 
+    let luas_layang = layang(d)
+    console.log(luas_layang) 
+
+    // Nomor 5
+
+    let number1 = Math.floor(Math.random() * 10) + 1;
+    console.log(number1)
+
+    // Nomor 6 Menghitung luas persegi
+
+    function persegi(s){
+        const phi = 3.14
+        L = 7 * 7
+        return L
+    }
+    let s = 7 
+    let luas_persegi = persegi(s)
+    console.log(luas_persegi) 
+
+    // Nomor 7
+    let number2 = Math.floor(Math.random() * 100) + 1;
+    console.log(number2)
+
+    // Nomor 8 Menghitung luas jajargenjang
+
+    function jajargenjang(a){
+        const phi = 3.14
+        L = 9 * 5
+        return L
+    }
+
+    let a = 7
+    let luas_jajargenjang = jajargenjang(a)
+    console.log(luas_jajargenjang)
+
+    // Nomor 9
+
+    let alas = 10;
+
+    function luasSegitiga(alas, tinggi){
+        let nilai = (alas * tinggi) / 2;
+        return nilai;
+    }
+
+    console.log(luasSegitiga(20, 10));
+
+    // pertanyaanya: Mengapa hasil dari luas segitiga yaitu 100 kenapa tidak 50 pada gambar 3.1
+    // Jawabannya: karena nilai variable tidak di kali sedang kan alas yang dikali tinggi akan menghitung daripada variable alas
+
+    // Nomor 10
+    let phi = 3.14
+    function luasLingkaran(alas, tinggi) {
+        let nilai = phi * r * r;
+        return nilai
+    }
+
+    function luasLingkaran(r){
+        let nilai = phi * r * r;
+        return nilai;
+    }
+
+    console.log(luasLingkaran(7));
+
+
+    // Nomor 11
+    function jilnap(value){
+      if (value % 2 === 1){
+        return "ganjil";
+        } else {
+        return "genap";
+      }
+    }
+    console.log(jilnap(1))
+    console.log(jilnap(2))
+    console.log(jilnap(3))
+    console.log(jilnap(4))
+    console.log(jilnap(5))
+    </script>
+
+    <footer>Made by Muhammad Nur Alfayet</footer>
+</body>
+</html>
